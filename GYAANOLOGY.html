@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+#imghref{
+border: 5px solid black;
+}
+p{
+	font-size:20px;
+}
+h1 {
+    color: black;
+    font-family: Cambria;
+    font-size: 100px;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+g
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+#cd1 {border: 5px solid black;}
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.1s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: yellow;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+div.relative{
+	position:relative;
+	left:30px;
+}
+.button3 {
+	border-radius: 8px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+</style>
+</head>
+<body bgcolor="skyblue">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<div class="relative">
+<img src="C:\Users\user\Desktop\SAURABH\cropped-logo.png" hspace="20" height="80" width="120" style="float:left">
+</div>
+<h1 align="center" ><u>GYAANOLOGY</u></h1>
+<h4 align="center" style="font-family:Cambria;font-size:30px;"><marquee>The Ultimate Knowledge Hub. We are trying to help you get most out of your day.</h4></marquee><hr>
+<h2 align="center" style="font-family:Cambria;font-size:50px;">Welcome</h2>
+<h3 align="center" style="font-family:Cambria;font-size:20px;">Heartily Welcome to our website. Help us serve you better! We want to share our knowledge and experiences with you, whether it is of Technology, Medical Science, Common Terminology, Uncommon explanation of Trending and Common Topics or whatever from your day-to-day life problems. We have just started and hope that one day we will get an space in your Bookmarks section. Why Visit Our Site?</h3>
+
+<h2 align="center" style="font-family:Cambria;font-size:50px;">Our Team</h2>
+<h3 align="center" style="font-family:Cambria;font-size:20px;">Our team is small, we are hiring too. Join us if you are expert of any topic and want to share your knowledge with others.</h3>
+
+
+  <div class="row">
+  <div class="column">
+    <div class="card" id="cd1">
+<a href="Deepak_Intro.html" title="Deepak's Introduction" target="_blank">
+      <img  src="C:\Users\user\Desktop\SAURABH\deepak.jpg" alt="DEEPAK CHAUDHARY" style="width:100%" border="5" id="imghref"></a>
+      <div class="container">
+        <h2><u>Deepak Chaudhary</u></h2>
+        <p class="title">Director</p>
+        <p>The part of this fantastic team.<br>A YouTuber, A Computer Science Lover.<br>Has a Learning+ Lion Attitude. Helping nature.<br>Strict and Passionate about AIM in Life.<br>Interested in learning Entrepreneurship and Startup.</p>
+        <p>deepak@gyaanology.com</p>
+</div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card" id="cd1">
+      <img src="C:\Users\user\Desktop\SAURABH\lavish.jpg" alt="LAVISH SWARNKAR" style="width:100%" border="5">
+      <div class="container">
+        <h2><u>Lavish Swarnkar</u></h2>
+        <p class="title">Emerging Technician</p>
+        <p>The Technical Part of this team.<br>A Tech Enthusiast, Blogger, YouTuber, Google & Android Fan.<br>Passionate about Computer Science & Technology.<br>Author of the Tech articles on this website..</p>
+        <p>lavish@gyaanology.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card" id="cd1">
+      <a href="Saurabh_intro.html" style="text-decoration:none"  target="_blank"><img src="C:\Users\user\Desktop\SAURABH\saurabh3.jpg" alt="SAURABH JANGID" style="width:100%" id="imghref" ></a>
+      <div class="container">
+        <h2><u>Saurabh Jangid</u></h2>
+        <p class="title">Emerging Technician</p>
+        <p>The Technical Part of this team.<br>A Security Enthusiast, Blogger, Google Fan.<br>Passionate about Computer Science & Technology.<br>Author of the Tech articles on this website..<br>Interseted in learning new things...</p>
+        <p>saurabh@gyaanology.com</p>
+        
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="column">
+    <div class="card" id="cd1">
+      <img src="C:\Users\user\Desktop\SAURABH\manish.jpg" alt="MANISH SAINI" style="width:100%" border="5">
+      <div class="container">
+        <h2><u>Manish Saini</u></h2>
+        <p class="title">Emerging Doctor</p>
+        <p>The Doctor of this team. Interested in Medical Science. The Author of all Medical Science posts on this website. Working for changing the future with the help of Medical Sciences.<br>Interseted in learning things & Helping Nature.</p>
+        <p>manish@gyaanology.com</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ 
+  <a href="GYAANOLOGY.html">Home</a>
+  <a href="Deepak_Intro.html">Deepak's Introduction</a>
+  <a href="lavish_introduction.html">Lavish's Introduction</a>
+  <a href="Saurabh_intro.html">Saurabh's Introduction</a>
+  <a href="post_by_saurabh.html">Post by Saurabh</a>
+  <a href="manish_intro.html">Manish's Introduction</a>
+  <a href="Contact_us.html">Contact Us</a>
+  <a href="reach_us.html">Reach Us</a>
+  <a href="privacy_policy.html">Privacy Policy</a>
+  <a href="terms_of_services.html">Terms of Service</a>
+</div>
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<h2>Our Youtube Channel</h2>
+<a href="https://www.youtube.com/channel/UCvNk5HV8zk4oc__hNUGuT5w" style="text-decoration:none"  target="_blank"><button type="submit" class="button button3"><b>Youtube</b></button></a>
+
+<h3 align="center" style="font-family:Sitka Small;font-size:40px"> Developed by <u>STREAMLINERS</u></h3>
+</body>
+</html>

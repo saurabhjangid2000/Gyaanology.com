@@ -1,0 +1,166 @@
+<html>
+<head>
+<style>
+h1{
+	font-family:Bahnschrift;
+	color:white;
+	font-size:90px;
+
+}
+#div1{
+	background-color:black;
+}
+h3{
+	color:white;
+	font-size:30px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size:30px;	
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     font-size:30px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.1s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: yellow;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+div.relative{
+	position:relative;
+	left:30px;
+}
+
+</style>
+</head>
+<body bgcolor="blue">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<h1 align="center">Contact Us</h1>
+<div id="div1">
+<p class="dashed">
+<h3>Got any complaints, mistakes or anything else.<br>Send us your feedback.<br>Feel free to share your experiences on this website with us.<br>
+
+Get in touch and we'll get back to you as soon as we can. <br>We look forward to hearing from  ! </h3><h3  style="float:right">   e-mail:help@gyaanology.com</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname" style="color:white;font-size:30px">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname" style="color:white;font-size:30px " >Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country" style="color:white;font-size:30px">Country</label>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+     
+    </select>
+
+    <label for="subject" style="color:white;font-size:30px">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit"  form="coolbroqwerty@gmail.com" value="Submit">
+  </form>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+  <a href="GYAANOLOGY.html">Home</a>
+  <a href="Deepak_Intro.html">Deepak's Introduction</a>
+  <a href="lavish_introduction.html">Lavish's Introduction</a>
+  <a href="Saurabh_intro.html">Saurabh's Introduction</a>
+  <a href="post_by_saurabh.html">Post by Saurabh</a>
+  <a href="manish_intro.html">Manish's Introduction</a>
+  <a href="Contact_us.html">Contact Us</a>
+  <a href="reach_us.html">Reach Us</a>
+  <a href="privacy_policy.html">Privacy Policy</a>
+  <a href="terms_of_services.html">Terms of Service</a>
+</div>
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+
+
+
+</body>
+</html>
